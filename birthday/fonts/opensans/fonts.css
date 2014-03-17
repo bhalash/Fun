@@ -1,0 +1,96 @@
+/* 
+    Name: Open Sans Font Family
+    Creator: Steve Matteson
+    URL: http://www.myfonts.com/person/Steve_Matteson/
+    License: Apache License 2.0
+*/
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    src: 
+        url('bold/opensans-bold.eot?') format('eot'),
+        url('bold/opensans-bold.woff') format('woff'),
+        url('bold/opensans-bold.ttf')  format('truetype'),
+        url('bold/opensans-bold.svg')  format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans Bold Italic';
+    src: 
+        url('bold-italic/opensans-bold-italic.eot?') format('eot'),
+        url('bold-italic/opensans-bold-italic.woff') format('woff'),
+        url('bold-italic/opensans-bold-italic.ttf')  format('truetype'),
+        url('bold-italic/opensans-bold-italic.svg')  format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans Extra Bold';
+    src: 
+        url('extra-bold/opensans-extra-bold.eot?') format('eot'),
+        url('extra-bold/opensans-extra-bold.woff') format('woff'),
+        url('extra-bold/opensans-extra-bold.ttf')  format('truetype'),
+        url('extra-bold/opensans-extra-bold.svg')  format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans Extra Bold Italic';
+    src: 
+        url('extra-bold-italic/opensans-extra-bold-italic.eot?') format('eot'),
+        url('extra-bold-italic/opensans-extra-bold-italic.woff') format('woff'),
+        url('extra-bold-italic/opensans-extra-bold-italic.ttf')  format('truetype'),
+        url('extra-bold-italic/opensans-extra-bold-italic.svg')  format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans Italic';
+    src: 
+        url('italic/opensans-italic.eot?') format('eot'),
+        url('italic/opensans-italic.woff') format('woff'),
+        url('italic/opensans-italic.ttf')  format('truetype'),
+        url('italic/opensans-italic.svg')  format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans Light';
+    src: 
+        url('light/opensans-light.eot?') format('eot'),
+        url('light/opensans-light.woff') format('woff'),
+        url('light/opensans-light.ttf')  format('truetype'),
+        url('light/opensans-light.svg')  format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans Light Italic';
+    src: 
+        url('light-italic/opensans-light-italic.eot?') format('eot'),
+        url('light-italic/opensans-light-italic.woff') format('woff'),
+        url('light-italic/opensans-light-italic.ttf')  format('truetype'),
+        url('light-italic/opensans-light-italic.svg')  format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: 
+        url('regular/opensans-regular.eot?') format('eot'),
+        url('regular/opensans-regular.woff') format('woff'),
+        url('regular/opensans-regular.ttf')  format('truetype'),
+        url('regular/opensans-regular.svg')  format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans Semibold';
+    src: 
+        url('semibold/opensans-semibold.eot?') format('eot'),
+        url('semibold/opensans-semibold.woff') format('woff'),
+        url('semibold/opensans-semibold.ttf')  format('truetype'),
+        url('semibold/opensans-semibold.svg')  format('svg');
+}
+
+@font-face {
+    font-family: 'Open Sans Semibold Italic';
+    src: 
+        url('semibold-italic/opensans-semibold-italic.eot?') format('eot'),
+        url('semibold-italic/opensans-semibold-italic.woff') format('woff'),
+        url('semibold-italic/opensans-semibold-italic.ttf')  format('truetype'),
+        url('semibold-italic/opensans-semibold-italic.svg')  format('svg');
+}
