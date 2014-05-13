@@ -1,0 +1,180 @@
+/* 
+ * CSS Reset
+ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    border: 0;
+    color: inherit;
+    font-size: 100%;
+    font: inherit;
+    font-family: 
+        Lucida Grande, Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: baseline;
+}
+
+/*
+ * Web Fonts
+ */
+
+/* 
+ * Name: OSP-DIN
+ * Creator: Open Font Library
+ * URL: http://openfontlibrary.org/font/osp-din
+ * License: SIL Open Font License 1.1
+ */
+
+@font-face {
+    font-family: 'OSP-DIN';
+    src: 
+        url('fonts/osp-din/osp-din.eot?') format('embedded-opentype'), 
+        url('fonts/osp-din/osp-din.woff') format('woff'),
+        url('fonts/osp-din/osp-din.ttf')  format('truetype'),
+        url('fonts/osp-din/osp-din.svg')  format('svg');
+}
+
+/*
+ * Header and link styles.
+ */
+
+a {
+    font-family:
+        'OSP-DIN', Impact, Haettenschweiler, 'Franklin Gothic Bold', 
+        Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold',
+        'Arial Black', sans-serif;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #343537;
+    font-family:
+        'OSP-DIN', Impact, Haettenschweiler, 'Franklin Gothic Bold', 
+        Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold',
+        'Arial Black', sans-serif;
+    font-size: 8em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+/*
+ * Counter and main text.
+ */
+
+.counter {
+    width: 100%;
+    text-align: center;
+}
+
+.blurb {
+    font-size: 2em;
+    letter-spacing: -1px;
+    text-decoration: overline underline;
+}
+
+.info {
+    font-size: 1.3em;
+}
+
+.info a {
+    text-decoration: none;
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+.time:before {
+    content: '{ ';
+}
+
+.time:after {
+    content: ' }';
+}
+
+/*
+ * Mobile font sizes.
+ */
+
+@media only screen and (max-width: 1000px) {
+    .time {
+        font-size: 5em;
+    }
+
+    .blurb {
+        font-size: 1.5em;
+    }
+
+    .info {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-device-width: 480px) {
+    .time {
+        font-size: 3.2em;
+    }
+}
+
+/*
+ * Links row at bottom of page.
+ */
+
+.links {
+    bottom: 15px;
+    left: 30px;
+    overflow: auto;
+    position: fixed;
+}
+
+.links a {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.link {
+    transition: opacity .15s ease-in-out;
+    -moz-transition: opacity .15s ease-in-out;
+    -webkit-transition: opacity .15s ease-in-out; 
+    -o-transition: opacity .15s ease-in-out; 
+    float: left;
+    height: 35px;
+    margin-right: 10px;
+    opacity: 0.2;
+    position: static;
+    width: 35px;
+}
+
+.nyan {
+    background: url('nyan.png') no-repeat center center;
+    background-size: 100% auto;
+}
+
+.rmwb {
+    background: url('twitter.png') no-repeat center center;
+    background-size: auto 60%;
+}
+
+.rmwb:hover {
+    opacity: 1;
+}
