@@ -2,10 +2,12 @@
 These are small bits and piece that were mostly thrown together for fun.
 
 ## Description
-I tend to come up with fun little ideas and stick them up on my site. This is them 
+I tend to come up with fun little ideas and stick them up on my site. They break down into either helper Bash scripts, or things like an ISBN-10 validator or bogosort spellchecker.
 
 ## What's Included
-Not much. Solutions along with text files, where relevant.
+Folder HTML contains my once-off HTML project. The end goal of those projects was to learn JavaScript. They might do someting interesting, but ultimately isn't too novel.
+
+Folder Shell contians Bourne shell scripts that I use on a regular basis.
 
 ```
 /
