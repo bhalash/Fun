@@ -58,7 +58,9 @@ li {
 
 #content {
     margin: 0 auto;
-    padding-top: 12%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #content .stuff {
