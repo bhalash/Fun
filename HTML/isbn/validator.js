@@ -28,7 +28,7 @@ jQuery(function($) {
                 }
             } 
 
-            return (num % 11 === 0 && num > 0) ? true : false;
+            return (num % 11 === 0 && num > 0);
        }
     });
 });
