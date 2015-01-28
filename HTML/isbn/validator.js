@@ -4,8 +4,6 @@ jQuery(function($) {
     var validator = {form: '#validator', input: '#validator input:text'}
     var result = {valid: '#9effb1', invalid: '#f01818'}
 
-    verticalCenter(validator.form);
-
     $(validator.input).keyup(function() {
         if ($(this).val().length > 0) {
             $(this).css('color', ($(this).isIsbn()) ? result.valid : result.invalid);
@@ -15,14 +13,6 @@ jQuery(function($) {
     $(validator.form).submit(function() {
         return false;
     });
-
-    $(window).resize(function() {
-        verticalCenter(validator.form);
-    });
-
-    function verticalCenter(div) {
-        $(div).css('margin-top', $(window).height() * 0.5 - $(div).outerHeight() * 0.5).show();
-    }
 
     $.fn.extend({
        isIsbn: function() {
